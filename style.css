@@ -1,0 +1,53 @@
+body {
+    background-color: #90ee90; /* light green */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #32cd32; /* darker green for header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #228b22; /* navigation bar */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    margin: 15px;
+}
+
+.center-content {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+img {
+    border-radius: 10px; /* makes image corners rounded */
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.3); /* subtle shadow */
+}
+
+audio, video {
+    margin-top: 15px;
+    border: 2px solid #006400; /* small border around audio/video */
+    border-radius: 5px;
+}
